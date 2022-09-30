@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Metrics embed
-        uses: lowlighter/metrics@latest
+        uses: gilesknap/metrics@latest
         with:
           token: ${{ github.token }}
           plugin_languages: yes
