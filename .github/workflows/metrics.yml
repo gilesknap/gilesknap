@@ -17,10 +17,4 @@ jobs:
         uses: lowlighter/metrics@cf98a50eb63499d520bea42d8129d1cb8682de0f
         with:
           token: ${{ secrets.METRICS }}
-          base: header
-          plugin_languages: yes
-          plugin_isocalendar: yes
-          plugin_languages_ignored: html, css
-          plugin_traffic: yes
           config_timezone: Europe/London
-          config_order: base.header, isocalendar, languages, stars
